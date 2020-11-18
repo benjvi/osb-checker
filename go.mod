@@ -1,4 +1,4 @@
-module openservicebrokerapi/osb-checker
+module benjvi/osb-checker
 
 go 1.13
 
