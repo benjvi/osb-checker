@@ -1,5 +1,7 @@
 cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/antihax/optional v0.0.0-20180407024304-ca021399b1a6/go.mod h1:V8iCPQYkqmusNa815XgQio277wI47sdRh1dUOLdyC6Q=
+github.com/benjvi/osb-checker v0.0.0-20190827084956-e6d47cbaed87 h1:Pimj52TcrJxbpbLuyXTbBYZ2TlGOLAvd5oGzttiFhvw=
+github.com/benjvi/osb-checker v0.0.0-20190827084956-e6d47cbaed87/go.mod h1:75ZMDabr9WlRnEiTfNLMyjMGzorovU8UxVNa+Bn4tjA=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/golang/protobuf v1.3.1/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
