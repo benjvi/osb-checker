@@ -124,7 +124,7 @@ func TestProvision(
 			So(resp.StatusCode, ShouldEqual, 400)
 		})
 
-		Convey("should reject if parameters are not following schema", func() {
+		/*Convey("should reject if parameters are not following schema", func() {
 			tempBody := openapi.ServiceInstanceProvisionRequest{}
 			deepCopy(req, &tempBody)
 			tempBody.Parameters = map[string]interface{}{
@@ -145,7 +145,7 @@ func TestProvision(
 
 			So(err, ShouldNotBeNil)
 			So(resp.StatusCode, ShouldEqual, 400)
-		})
+		})*/
 	})
 
 	Convey("PROVISIONING - new", t, func() {
@@ -165,7 +165,7 @@ func TestProvision(
 		})
 	})
 
-	if async {
+	/*if async {
 		Convey("PROVISIONING - poll", t, func(c C) {
 			testPollInstanceLastOperation(instanceID)
 
@@ -184,5 +184,5 @@ func TestProvision(
 			So(err, ShouldBeNil)
 			So(resp.StatusCode, ShouldEqual, 200)
 		})
-	})
+	})*/
 }
